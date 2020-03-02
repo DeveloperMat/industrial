@@ -1,0 +1,159 @@
+:root {
+    --primary-color: #ffffff;
+    --dark-color: #272822;
+    --text-color: #7E94EB;
+}
+
+h1,h2,h4,h5,h6 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.5);
+}
+
+.navbar i {
+   color: var(--primary-color);
+   font-size: 30px;
+
+}
+
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+.header a {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.header a:hover {
+    color: var(--text-color);
+}
+.banner-text {
+    position: relative;
+    top: 30%;
+    margin-left: 50px; 
+}
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--dark-color) !important;
+    border: 1px solid var(--dark-color);
+}
+.btn-primary:hover {
+    background: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+.bg-main {
+    background: #F8F9FA;    
+}
+.item-service {
+    box-shadow: 4px 2px 8px rgba(0,0,0,0.2);
+}
+.item-service i {
+    font-size: 40px;
+    color: var(--text-color);
+}
+.people {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/people.jpg);
+    height: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.people-profile {
+    width: 100px;
+}
+.motto {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/motto.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: repeat;
+}
+.motto-text {
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.pj-motto {
+    font-size: 20px;
+}
+
+.footer {
+    background: #272822;
+}
+.btn-width {
+    width: 100px;
+}
+.btn-fb {
+    background: #4267B2;
+    color: var(--primary-color);
+}
+.btn-tw {
+    background: #1CA0F0;
+    color: var(--primary-color);
+}
+.btn-ig {
+    background: #E95F88;
+    color: var(--primary-color);
+}
+.btn-yt {
+    background: #B74437;
+    color: var(--primary-color);
+}
+.input-news {
+    background: transparent;
+    color: var(--primary-color);
+}
+.input-news:focus {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+
+
+@media screen and (max-width:550px){
+    .header {
+        height: 400px;
+    }
+    .banner-text {
+        position: relative;
+        top: 5%;
+        margin-left: 0px;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .motto-text {
+        font-size: 20px;
+    }
+    .pj-motto {
+        font-size: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+     h2 {
+         font-size: 28px;
+     }
+
+}
+@media screen and (min-width: 768px){
+    .people {
+        height: 500px;
+    }
+    .navbar-brand {
+        font-size: 50px !important;
+    }
+   
+}
+@media (min-width:1024px) and (max-width:1024.55px){
+    .box-social-media {
+        display: flex;
+        justify-content: center;
+    }
+}
